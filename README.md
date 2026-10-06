@@ -1,6 +1,6 @@
 # AI Desktop Organizer
 
-Developer: **Purvish Nistane** · Contact: **7990354539**
+Developer: **Purvish Nistane** ·
 
 **Your files are messy. AI understands them.** A local-first file intelligence workspace for scanning, explaining, searching, deduplicating, and safely organizing a folder.
 
