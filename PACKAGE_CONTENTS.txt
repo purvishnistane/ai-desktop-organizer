@@ -1,0 +1,34 @@
+AI Desktop Organizer package contents
+=====================================
+
+Archive: AI-Desktop-Organizer.zip
+ZIP size: 40,516 bytes (39.6 KiB)
+
+Included directories:
+- backend/app/              FastAPI API, SQLite schema, scanner, extraction, classification, search, duplicate detection, organization and undo
+- backend/tests/            backend unit tests
+- frontend/src/             React/TypeScript UI and frontend test
+- demo_files/               small safe demo dataset
+- scripts/                  local launch helper
+
+Included files:
+- frontend/package.json, package-lock.json, vite.config.ts, index.html
+- backend/requirements.txt
+- README.md
+- .env.example
+
+Excluded directories/files:
+- node_modules/
+- frontend/dist/
+- build/ and generated caches
+- Python __pycache__/ and .pytest_cache/
+- SQLite database files
+- .git/
+- logs, secrets, .env, IDE/OS metadata
+- large model files and downloaded dependencies
+
+Installation:
+1. cd backend && python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+2. uvicorn app.main:app --reload --port 8000
+3. In another terminal, cd frontend && npm install && npm run dev
+4. Open the Vite URL and scan the included demo_files folder.

@@ -1,0 +1,1 @@
+DBMS Assignment: explain normalization and functional dependencies. Include examples for 3NF and BCNF.
